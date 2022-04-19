@@ -1,0 +1,24 @@
+.titre {
+    text-align: center;
+    font-size: 7vw;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 0;
+    padding: 5rem;
+  }
+
+  .container_accueil {
+    display: flex;
+    justify-content: space space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bigDescription {
+    width: 50vw;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    border: 2px solid white;
+  border-radius: 15px;
+  background-color: black;
+  }

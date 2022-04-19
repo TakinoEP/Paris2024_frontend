@@ -1,0 +1,234 @@
+/* container partie admin */
+.Admin {
+    display: flex;
+    flex-flow: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .delete {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    z-index: 50;
+    background-color: rgba(231, 85, 40, 0.842);
+  }
+  
+  .delete-alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(
+      91.93deg,
+      rgb(107, 101, 107) 7.44%,
+      rgb(163, 74, 32) 94.63%
+    );
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 150px auto;
+    box-shadow: -1px 2px 1.5px var(--grey-color);
+  }
+  
+  h5 {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.4em;
+    width: 100vw;
+    height: 40px;
+    background-color: var(--purple-color);
+  }
+  
+  h5 {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.4em;
+    width: 100vw;
+    height: 40px;
+    background-color: var(--purple-color);
+  }
+  
+  /* formulaire nouvel admin */
+  .new-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 250px;
+    height: 220px;
+    background: linear-gradient(
+      91.93deg,
+      rgb(107, 101, 107) 7.44%,
+      rgb(163, 74, 32) 94.63%
+    );
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .new-admin input {
+    width: 180px;
+    height: 40px;
+    font-family: 'Itim', sans-serif;
+    border-radius: 25px;
+    border-style: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* container liste admins */
+  .admin-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .admin-list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    height: 100px;
+    background: linear-gradient(
+      91.93deg,
+      rgb(107, 101, 107) 7.44%,
+      rgb(163, 74, 32) 94.63%
+    );
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  .button-admin {
+    background-color: var(--purple-color);
+    border-radius: 25px;
+    font-family: 'Itim', sans-serif;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    margin: 0;
+    padding: 5px;
+    transition: 0.5s ease;
+  }
+  
+  .button-admin:hover {
+    transform: scale(1.09);
+  }
+  
+  /* container formulaire ajout */
+  .add-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    width: 85vw;
+    height: 780px;
+    max-width: 800px;
+    background: linear-gradient(
+      91.93deg,
+      rgb(107, 101, 107) 7.44%,
+      rgb(163, 74, 32) 94.63%
+    );
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .add-form input {
+    width: 70vw;
+    max-width: 750px;
+    height: 40px;
+    font-family: 'Itim', sans-serif;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  
+  .add-form textarea {
+    width: 70vw;
+    max-width: 750px;
+    height: 50vh;
+    max-height: 350px;
+    font-family: 'Itim', sans-serif;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  .selectors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    max-width: 750px;
+  }
+  
+  /* partie dates */
+  
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 70vw;
+    max-width: 750px;
+  }
+  
+  .dates input {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  /* partie ajout image */
+  .add-form p {
+    text-align: left;
+    width: 70vw;
+    max-width: 750px;
+    font-size: 16px;
+  }
+  
+  #update {
+    width: 70vw;
+    max-width: 750px;
+    margin-top: 15px;
+  }
+  
+  .add-form select {
+    background-color: var(--purple-color);
+    border-radius: 25px;
+    font-family: 'Itim', sans-serif;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-style: none;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .add-assets {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    max-width: 750px;
+    justify-content: space-between;
+  }
+  
